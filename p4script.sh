@@ -62,7 +62,9 @@ then
 #Lookup ip
 elif [[ $1 == "lookup-ip" ]];
 then
+	echo
 	nslookup -type=any $2 && echo "HERE IS SOME INFO ABOUT $2"
+ 	echo
 	xdg-open https://whatismyipaddress.com/ip/$2
 	
 #google-er
