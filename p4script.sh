@@ -61,7 +61,7 @@ then
 elif [[ $1 == "lookup-ip" ]];
 then
 	nslookup -type=any $2 && echo "HERE IS SOME INFO ABOUT $2"
-	xdg-open https://www.google.com/search?q=$2
+	xdg-open https://whatismyipaddress.com/ip/$2
 	
 #google-er
 elif [[ $1 == "google" ]];
