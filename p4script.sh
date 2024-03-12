@@ -18,6 +18,7 @@ then
 	echo 	"'google (search-term)'"
 	echo 	"'shodan (search-term)'"
 	echo	"'github (search-term)'"
+ 	echo	"'dorks'"
 	echo
 
 #blank osint in main browser
