@@ -39,7 +39,7 @@ then
 elif [[ $1 == "install" ]];
 then
 	echo 
-	echo "**INPUT PASSWORD TO INSTALL Maltego, TheHarvester AND Recon-ng**"
+	echo "**INPUT PASSWORD TO INSTALL Maltego AND Recon-ng**"
 	sudo apt install maltego recon-ng -y
 	
 #run maltego and recon-ng
