@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #help page
+
 if [[ $1 == "help" ]];
 then
 	echo 
